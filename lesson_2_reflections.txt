@@ -2,3 +2,6 @@
 
 to tell git to initialise the tracking by adding .git directory. 
 
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+it tells git that what files are to be added  to ( care chages for) the repository in the next commit
