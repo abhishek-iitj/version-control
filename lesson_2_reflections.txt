@@ -5,3 +5,34 @@ to tell git to initialise the tracking by adding .git directory.
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 it tells git that what files are to be added  to ( care chages for) the repository in the next commit
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+keep adding each logical change to stating area.
+run git status
+git commit 
+
+keeping files in the staging area keeps track of the change from latest commit. 
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+To try out a new feature in isolation to the master.
+To show those changes to people and also be in loop with the master
+Context switing
+to fix a bug
+Master branch , never breaks, always works,
+development branch , active work, 
+experimental branch,
+feature branch , expected to break 
+
+If you and your collaborators all make changes on the same branch you can't easily work on separate features simultaneously. 
+
+5. How do the diagrams help you visualize the branch structure?
+
+it tells the hierachial flow of commits. 
+
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
